@@ -2,7 +2,7 @@
     git init
 
 ### 2. What command do you use to ask git to start tracking a file?
-    git add
+    git add <filename>
 
 
 ### 3. What command do you use to ask git to move your file from the staging area to the repository?
