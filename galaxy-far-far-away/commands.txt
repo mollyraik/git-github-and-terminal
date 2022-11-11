@@ -1,0 +1,101 @@
+165  mkdir galaxy-far-far-away
+  166  cd galaxy-far-far-away/
+  167  touch commands.txt
+  168  mkdir death_star
+  169  cd death_star/
+  170  touch darth_vader.txt
+  171  touch princess_leia.txt
+  172  touch storm_trooper.txt
+  173  ls
+  174  cd ..
+  175  mkdir tatooine
+  176  cd tatooine/
+  177  touch luke.txt
+  178  touch ben_kenobi.txt
+  179  ls
+  180  mkdir millenium_falcon
+  181  cd millenium_falcon/
+  182  touch han_solo.txt
+  183  touch chewbaca.txt
+  184  ls
+  185  cd ..
+  186  find -name "ben_kenobi.txt"
+  187  mv ben_kenobi.txt obi_wan.txt
+  188  ls
+  189  man ls
+  190  man cp
+  191  cd ..
+  192  cd death_star/
+  193  cp storm_trooper.txt /tatooine/
+  194  man cp
+  195  cp storm_trooper.txt ... tatooine/
+  196  cd tatooine
+  197  cd ../tatooine
+  198  ls
+  199  cd ../death_star/
+  200  cp storm_trooper.txt ../tatooine/
+  201  cd ../ta
+  202  cd ../tatooine/
+  203  ls
+  204  cd ../death_star/
+  205  ls
+  206  clear
+  207  cd ../tatooine/
+  208  mv luke.txt millenium_falcon/
+  209  mv obi_wan.txt millenium_falcon/
+  210  cd millenium_falcon/
+  211  ls
+  212  cd ..
+  213  mv millenium_falcon/ ..
+  214  cd ..
+  215  ls
+  216  mv millenium_falcon/ death_star/
+  217  cd death_star/
+  218  ls
+  219  mv princess_leia.txt millenium_falcon/
+  220  cd millenium_falcon/
+  221  rm obi_wan.txt 
+  222  ls
+  223  cd ...
+  224  pwd
+  225  cd ../..
+  226  mkdir yavin_4
+  227  mv death_star/millenium_falcon/ yavin_4/
+  228  cd yavin_4/
+  229  ls
+  230  mkdir x_wing
+  231  mv millenium_falcon/princess_leia.txt .
+  232  ls
+  233  mv millenium_falcon/luke.txt x_wing/
+  234  cd x_wing/
+  235  ls
+  236  mv ../millenium_falcon/ ../..
+  237  cd ../..
+  238  ls
+  239  mv . ../..
+  240  mv yavin_4/x_wing/ .
+  241  ls
+  242  cd death_star/
+  243  mkdir tie_fighter_1
+  244  mkdir tie_fighter_2
+  245  mkdir tie_fighter_3
+  246  ls
+  247  mv darth_vader.txt tie_fighter_1
+  248  ls tie_fighter_1
+  249  cp storm_trooper.txt tie_fighter_2
+  250  cp storm_trooper.txt tie_fighter_3
+  251  mv -t .. tie_fighter_1 tie_fighter_2 tie_fighter_3
+  252  pwd
+  253  mv tie_fighter_1 ..
+  254  mv tie_fighter_2 ..
+  255  mv tie_fighter_3/ ..
+  256  cd ..
+  257  ls
+  258  rm -r tie_fighter_2
+  259  rm -r tie_fighter_3
+  260  cd x_wing/
+  261  touch the_force.txt
+  262  cd ..
+  263  rm -r death_star/
+  264  mv x_wing/ yavin_4/
+  265  mv millenium_falcon/ yavin_4/
